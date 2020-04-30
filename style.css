@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(204, 222, 228);
+}
+.outher_wrap{
+    margin-top: 60px;
+}
+.input, select{
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(136, 172, 202);
+}
+.btn{
+    background-color: rgb(70, 108, 139);
+}
+h2{
+    padding-top: 40px;
+    text-align: center;
+}
+.input_wrap{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    min-height: 120px;
+    position: relative;
+}
+.error{
+    /* width: 60px;
+    height: 20px; */
+    padding: 5px;
+    background-color: rgb(245, 180, 41);
+    position: absolute;
+    right: -70%;
+    bottom: 26%;
+}
